@@ -1,1 +1,1 @@
-# temp
+# It is nothing but the temporary file.
