@@ -45,6 +45,12 @@ app.get('/temp3',(req,res)=>{
     res.send(dataArr);
 })
 
+// You can also sent the json data.
+app.get('/temp3',(req,res)=>{
+    const dataArr = [{name:"Sahil Kumar",rollno:5},{name:"Akshay Sharma",rollno:1}];
+    res.json(dataArr);
+})
+
 
 // Use the "listen" method of the "app" object to listen from the particular port:
 app.listen(port,()=>{
