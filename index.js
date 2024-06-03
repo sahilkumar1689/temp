@@ -46,7 +46,7 @@ app.get('/temp3',(req,res)=>{
 })
 
 // You can also sent the json data.
-app.get('/temp3',(req,res)=>{
+app.get('/temp4',(req,res)=>{
     const dataArr = [{name:"Sahil Kumar",rollno:5},{name:"Akshay Sharma",rollno:1}];
     res.json(dataArr);
 })
