@@ -1,3 +1,11 @@
+/*Steps:
+1. Firstly write command "npm init -y" to create a empty node app.
+2. After that run commnad "npm install express nodemon dotenv".
+3. After that create the index.js file.After that in that file firstly import the express that import the dotenv.After that create the app object with the help of express imported class.
+4. After that create a ".env" file and add the port number.And also create a ".gitignore" file then add node_modules and .env file inside it.
+5. After that come in the index.js and create a port variable and use the port created in the .env file by using "process.env.PORT".After that simple create servers and listen any particular port numbers.
+*/ 
+
 // Importing express to make surver:
 const express = require('express');
 
